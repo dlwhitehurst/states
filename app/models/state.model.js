@@ -2,9 +2,8 @@ const sql = require("./db.js");
 
 // constructor
 const State = function(state) {
-  this.email = state.email;
   this.name = state.name;
-  this.active = state.active;
+  this.code = state.code;
 };
 
 State.create = (newState, result) => {

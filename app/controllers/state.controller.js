@@ -8,12 +8,12 @@ exports.create = (req, res) => {
       message: "Content can not be empty!"
     });
   }
+  //console.log(req.body);
 
   // Create a State
   const state = new State({
-    email: req.body.email,
     name: req.body.name,
-    active: req.body.active
+    code: req.body.code
   });
 
   // Save State in the database

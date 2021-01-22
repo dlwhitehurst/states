@@ -1,6 +1,6 @@
 module.exports = {
-  HOST: "192.168.1.25",
+  HOST: "mysql-6c5f58d877-fqt6g",
   USER: "root",
   PASSWORD: "mysqlAdmin123",
-  DB: "states"
+  DB: "reference"
 };
