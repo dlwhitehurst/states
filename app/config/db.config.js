@@ -1,6 +1,6 @@
 module.exports = {
-  HOST: "mysql-6c5f58d877-fqt6g",
-  USER: "root",
-  PASSWORD: "mysqlAdmin123",
-  DB: "reference"
+  HOST: process.env.DB_HOST,
+  USER: process.env.DB_USERNAME,
+  PASSWORD: process.env.DB_PASSWORD,
+  DB: process.env.DB_SCHEMA 
 };
